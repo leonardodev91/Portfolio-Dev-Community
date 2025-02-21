@@ -1,0 +1,73 @@
+.header {
+  position: relative;
+  background: url("../assets/images/Background_Intro.png") no-repeat center;
+  background-size: cover;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;      /* Organiza os itens em coluna */
+  align-items: center;         /* Centraliza horizontalmente */
+  justify-content: center;
+  text-align: center;          /* Centraliza o texto */
+  
+  
+}
+
+.profile-image {
+  width: 152px;
+  height: 150px;
+  margin-left: 230px;
+  border-radius: 50%;
+  border: 3px solid var(--red);
+  margin-bottom: 20px;         /* Espaço entre a imagem e o texto */
+  
+}
+
+
+.text-container {
+  max-width: 600px;
+}
+
+.text-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  margin-top: 16px;
+  margin-left: 115px;
+  }
+  
+.img {
+    
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+width: 114px;
+height: 40px;
+background: #292C34;
+border-radius: 999px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+ 
+
+  
