@@ -1,0 +1,16 @@
+h3 {
+    font-family: 'Inconsolata', monospace; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-500);
+}
+
+.tag {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}

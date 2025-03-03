@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis globais */
+:root {
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+  --gray-100: #0D0E11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+
+  /* nome das fontes */
+  --font-primary: "Asap", sans-serif;
+  --font-secondary: "Inconsolata", sans-serif;
+  --font-tertiary: "Maven Pro", sans-serif;
+
+ 
+  --font-family: "Asap", sans-serif;
+
+
+  --h1: 700 56px/120% var(--font-primary) ;
+  --h2: 700 16px/120% var(--font-primary);
+  --h3: 400 20px/120% var(--font-secondary);
+  --p: 400 16px/140% var(--font-tertiary);
+  --text-sm: 400 14px/140% var(--font-tertiary); 
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--gray-500);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--gray-400);
+}
+
+p {
+  font-family: var(--font-tertiary);
+  font-size: 14px;
+  color: #878EA1;
+}
+
+.container {
+  position: relative;
+  padding-top: 60px;
+  width: 1526px;
+  height: 3088px;
+  border-radius: 40px;
+  background-color: var(--gray-400);
+  background: #29292E;
+  
+
+}
